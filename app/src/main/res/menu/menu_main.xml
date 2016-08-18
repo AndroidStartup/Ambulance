@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mahmoud.ambulance.MainActivity">
+    <item
+        android:id="@+id/map_type_normal"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="normal"
+        />
+    <item
+        android:id="@+id/map_type_satellite"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="satellite"
+        />
+    <item
+        android:id="@+id/map_type_terrain"
+        android:orderInCategory="100"
+        android:title="terrain"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_type_hybrid"
+        android:orderInCategory="100"
+        android:title="hybrid"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/map_type_none"
+        android:orderInCategory="100"
+        android:title="none"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/manegeUser"
+        android:orderInCategory="100"
+        android:title="Manege User"
+        app:showAsAction="never"
+        android:onClick="manegeUser"
+        />
+    <item
+        android:id="@+id/current_location"
+        android:title="current Location"
+        android:orderInCategory="100"
+        android:onClick="showCurrentLocation"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/myList"
+        android:orderInCategory="100"
+        android:title="My List"
+        android:onClick="MyList"
+        app:showAsAction="always" />
+</menu>
